@@ -43,11 +43,11 @@ function RestaurantPage({ deviceType }) {
 
   return (
     <>
-      <SEO title="Restaurant - PickBazar" description="Restaurant Details" />
+      <SEO title='Restaurant - Blinkkify' description='Restaurant Details' />
       <Modal>
         <Banner
-          intlTitleId="foodsTitle"
-          intlDescriptionId="foodsSubTitle"
+          intlTitleId='foodsTitle'
+          intlDescriptionId='foodsSubTitle'
           imageUrl={BannerImg}
         />
         <MobileCarouselDropdown>

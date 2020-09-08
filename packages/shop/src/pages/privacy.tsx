@@ -25,19 +25,19 @@ const PrivacyPage: NextPage<{}> = () => {
 
   return (
     <>
-      <SEO title={title} description="PickBazar privacy page" />
+      <SEO title={title} description='Blinkkify privacy page' />
 
       <StyledContainer>
         <Heading title={title} subtitle={`Last update: ${date}`} />
 
         <StyledContent>
           <StyledLeftContent>
-            <Sticky top={mobile ? 68 : 150} innerZ="1">
+            <Sticky top={mobile ? 68 : 150} innerZ='1'>
               <StyledLeftInnerContent>
                 {menuItems.map((item) => (
                   <StyledLink
                     key={item}
-                    activeClass="active"
+                    activeClass='active'
                     to={item}
                     spy={true}
                     smooth={true}
@@ -60,7 +60,7 @@ const PrivacyPage: NextPage<{}> = () => {
                 >
                   <StyledContentHeading>{item.title}</StyledContentHeading>
                   <div
-                    className="html-content"
+                    className='html-content'
                     dangerouslySetInnerHTML={{
                       __html: item.description,
                     }}
