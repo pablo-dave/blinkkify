@@ -1,8 +1,8 @@
-# PickBazar Documentation
+# Blinkkify Documentation
 
 # Introduction
 
-Fastest E-commerce template built with React, NextJS, TypeScript, GraphQL, Type-GraphQL & Styled-Components. Its very easy to use, we used graphql and type-graphql, you can build your schema very easily. GraphQL playground makes it’s own documentation, your frontend team will love using it.
+E-commerce template built with React, NextJS, TypeScript, GraphQL, Type-GraphQL & Styled-Components. 
 
 # Tech We Have Used
 
@@ -32,10 +32,10 @@ We have used monorepo folder structure with Yarn Workspace. In our template we h
 
 # Getting Started & Installation
 
-For getting started with the template you have to follow the below procedure. First navigate to the `pickbazar` directory. Then run below command for getting started with specific part.
+For getting started with the template you have to follow the below procedure. First navigate to the `blinkkify` directory. Then run below command for getting started with specific part.
 
 ```bash
-# on pickbazar directory
+# on blinkkify directory
 yarn
 ```
 
